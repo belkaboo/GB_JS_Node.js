@@ -24,7 +24,7 @@ const httpServer = http.createServer((req, res) => {
                 <head><title>Home Page</title></head>
                 <body>
                     <h1>Home Page</h1>
-                    <p>Кол-во просмотров: ${homePageViewsCounter}.</p>
+                    <p>Кол-во просмотров: ${homePageViewsCounter}</p>
                     <a href="/about">About</a>
 
                 </body>
@@ -41,7 +41,7 @@ const httpServer = http.createServer((req, res) => {
                 <head><title>About</title></head>
                 <body>
                     <h1>About</h1>
-                    <p>Кол-во проосмотров: ${aboutPageViewsCounter}.</p>
+                    <p>Кол-во просмотров: ${aboutPageViewsCounter}</p>
                     <a href="/">Home page</a>
                 </body>
             </html>
@@ -51,7 +51,7 @@ const httpServer = http.createServer((req, res) => {
         res.writeHead(404);
         res.end(`
             <html>
-                <head><title>Страница не найдена</title></head>
+                <head><title>404</title></head>
                 <body>
                     <h1>Ooops! Страница не найдена...</h1>
                     <a href="javascript:history.back()">Вернуться назад</a>
