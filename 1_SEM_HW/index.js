@@ -64,5 +64,16 @@ const httpServer = http.createServer((req, res) => {
 
 httpServer.listen(httpPort, () => {
     console.log(`Сервер запущен на http://127.0.0.1:${httpPort}`);
+    console.log('Для остановки сервера нажмите Q');
+});
+
+// для выхода
+process.stdin.setRawMode(true);
+process.stdin.resume();
+process.stdin.setEncoding('utf-8');
+process.stdin.on('data', (key) => {
+    if (key === 'q' || key === 'Q') {
+        process.exit(0);
+    }
 });
 
