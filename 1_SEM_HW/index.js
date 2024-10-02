@@ -73,7 +73,9 @@ process.stdin.resume();
 process.stdin.setEncoding('utf-8');
 process.stdin.on('data', (key) => {
     if (key === 'q' || key === 'Q') {
-        process.exit(0);
+        httpServer.close(() => {
+            process.exit(0);
+        });
     }
 });
 
