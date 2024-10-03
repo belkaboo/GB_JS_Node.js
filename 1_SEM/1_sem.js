@@ -43,7 +43,7 @@ const server = htttp.createServer((req, res) => {
     console.log('request');
     if (req.url === '/') {
         res.writeHead(200, { 'Content-Type': 'text/html ; charset = utf - 8' });
-        res.end(`<h1>Server start page</h1>
+        res.end(`<h1>Start Page</h1>
             <a href="/about">About</a>`);
     }
     else if (req.url === '/about') {
