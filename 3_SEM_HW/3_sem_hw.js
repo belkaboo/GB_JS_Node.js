@@ -4,7 +4,7 @@ const path = require('path');
 
 const app = express();
 const port = 3000;
-const filePath = path.join(process.cwd(), 'counters.json');
+const filePath = path.join(__dirname, 'counters.json');
 let counters = { home: 0, about: 0 };
 
 
