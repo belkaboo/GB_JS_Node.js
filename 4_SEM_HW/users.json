@@ -1,20 +1,20 @@
 [
   {
     "id": 1,
-    "firstName": "name1_changed",
-    "lasName": "sirname2",
-    "age": 130,
-    "city": "Moscow-city"
-  },
-  {
-    "id": 4,
     "firstName": "name1",
-    "lasName": "sirname2",
-    "age": 13,
-    "city": "Moscow-city"
+    "lasName": "sirname1",
+    "age": 20,
+    "city": "Moscow"
   },
   {
-    "id": 5,
+    "id": 2,
+    "firstName": "name2",
+    "lasName": "sirname2",
+    "age": 25,
+    "city": "Spb"
+  },
+  {
+    "id": 3,
     "firstName": "addedUser",
     "lasName": "sirname2",
     "age": 12,
@@ -23,7 +23,7 @@
   {
     "id": 6,
     "firstName": "new user",
-    "lasName": "sirname2_22",
+    "lasName": "new user",
     "age": 312,
     "city": "Novgorod"
   }
