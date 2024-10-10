@@ -17,7 +17,7 @@ app.get('/users', (req, res) => {
 
 app.get('/users/:id', (req, res) => {
     const users = readUsersFromFile(filePath);
-    const user = users.find(u => u.id === parseInt(req.params.id));
+    const user = users.find(u => u.id === Number(req.params.id));
 
     if (!user) {
         return res.status(404).send({ error: 'User not found' });
@@ -57,13 +57,13 @@ app.put('/users/:id', (req, res) => {
 
 app.delete('/users/:id', (req, res) => {
     let users = readUsersFromFile(filePath);
-    const userIndex = users.findIndex(u => u.id === parseInt(req.params.id));
+    const userIndex = users.findIndex(u => u.id === Number(req.params.id));
 
     if (userIndex === -1) {
         return res.status(404).send({ error: 'User not found' });
     }
 
-    users = users.filter(u => u.id !== parseInt(req.params.id));
+    users = users.filter(u => u.id !== Number(req.params.id));
 
     writeUsersToFile(filePath, users);
     res.send({ message: 'User deleted successfully' });
