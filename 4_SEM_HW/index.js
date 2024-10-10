@@ -1,10 +1,6 @@
 const express = require('express');
-const fs = require('fs');
 const path = require('path');
-const { readUsersFromFile } = require('./fs_func');
-const { writeUsersToFile } = require('./fs_func');
-
-
+const { readUsersFromFile, writeUsersToFile } = require('./fs_func');
 
 const app = express();
 const port = 3000;
@@ -40,7 +36,7 @@ app.post('/users', (req, res) => {
     });
 
     writeUsersToFile(filePath, users);
-    res.status(200).send({ newId });
+    res.status(200).send(req.body);
 });
 
 

@@ -1,37 +1,79 @@
 [
   {
     "id": 1,
-    "firstname": "name1_changed",
+    "firstName": "name1_changed",
     "lasName": "sirname2",
     "age": 130,
     "city": "Moscow-city"
   },
   {
     "id": 4,
-    "firstname": "name1",
+    "firstName": "name1",
     "lasName": "sirname2",
     "age": 13,
     "city": "Moscow-city"
   },
   {
     "id": 5,
-    "firstname": "addedUser",
+    "firstName": "addedUser",
     "lasName": "sirname2",
     "age": 12,
     "city": "Spb"
   },
   {
     "id": 6,
-    "firstname": "new user",
+    "firstName": "new user",
     "lasName": "sirname2_22",
     "age": 312,
     "city": "Novgorod"
   },
   {
     "id": 7,
-    "firstname": "new user",
+    "firstName": "new user",
     "lasName": "sirname2_22",
     "age": 3120000,
     "city": "Novgorod"
+  },
+  {
+    "id": 8,
+    "firstName": "new user _2_2",
+    "lasName": "new user _4 changed by PUT",
+    "age": 25,
+    "city": "N. Novgorod"
+  },
+  {
+    "id": 9,
+    "firstName": "new user _2_2",
+    "lasName": "new user _5 Post",
+    "age": 2500,
+    "city": "N. Novgorod"
+  },
+  {
+    "id": 10,
+    "firstName": "new user _2_2",
+    "lasName": "new user _5 Post",
+    "age": 2500,
+    "city": "N. Novgorod"
+  },
+  {
+    "id": 11,
+    "firstName": "new user _2_2",
+    "lasName": "new user _5 Post",
+    "age": 2500,
+    "city": "N. Novgorod"
+  },
+  {
+    "id": 12,
+    "firstName": "new user _2_2",
+    "lasName": "new user _5 Post",
+    "age": 2500,
+    "city": "N. Novgorod"
+  },
+  {
+    "id": 13,
+    "firstName": "new user _2_2",
+    "lasName": "new user _5 Post",
+    "age": 2500,
+    "city": "N. Novgorod"
   }
 ]
