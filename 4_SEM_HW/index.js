@@ -60,13 +60,13 @@ app.delete('/users/:id', (req, res) => {
     const userIndex = users.findIndex(u => u.id === parseInt(req.params.id));
 
     if (userIndex === -1) {
-        return res.status(404).json({ error: 'User not found' });
+        return res.status(404).send({ error: 'User not found' });
     }
 
     users = users.filter(u => u.id !== parseInt(req.params.id));
 
     writeUsersToFile(filePath, users);
-    res.json({ message: 'User deleted successfully' });
+    res.send({ message: 'User deleted successfully' });
 });
 
 
