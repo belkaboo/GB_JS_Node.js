@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "firstname": "name1_changed",
+    "lasName": "sirname2",
+    "age": 130,
+    "city": "Moscow-city"
+  },
+  {
+    "id": 4,
+    "firstname": "name1",
+    "lasName": "sirname2",
+    "age": 13,
+    "city": "Moscow-city"
+  },
+  {
+    "id": 5,
+    "firstname": "addedUser",
+    "lasName": "sirname2",
+    "age": 12,
+    "city": "Spb"
+  },
+  {
+    "id": 6,
+    "firstname": "new user",
+    "lasName": "sirname2_22",
+    "age": 312,
+    "city": "Novgorod"
+  },
+  {
+    "id": 7,
+    "firstname": "new user",
+    "lasName": "sirname2_22",
+    "age": 3120000,
+    "city": "Novgorod"
+  }
+]
