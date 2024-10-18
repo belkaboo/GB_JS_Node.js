@@ -2,28 +2,28 @@
   {
     "id": 1,
     "firstName": "name1",
-    "lasName": "sirname1",
+    "lastName": "sirname1",
     "age": 20,
     "city": "Moscow"
   },
   {
     "id": 2,
     "firstName": "name2",
-    "lasName": "sirname2",
+    "lastName": "sirname2",
     "age": 25,
     "city": "Spb"
   },
   {
     "id": 3,
     "firstName": "addedUser",
-    "lasName": "sirname2",
+    "lastName": "sirname2",
     "age": 12,
     "city": "Spb"
   },
   {
     "id": 6,
     "firstName": "new user",
-    "lasName": "new user",
+    "lastName": "new user",
     "age": 312,
     "city": "Novgorod"
   }
